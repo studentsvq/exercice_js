@@ -6,12 +6,12 @@ function maFonction(nb)
   let b = 3;
   let c = 5;
   
-  if(a % b) 
+  if(a % b === 0) 
   {
     return result = "Fizz";
   }
 
-  if(a % c)
+  if(a % c === 0)
   {
     return result = "Buzz";
   }
@@ -31,17 +31,17 @@ function maFonction(nb)
 function maFonction(nb)
 {
   
-  if(nb % 3) 
+  if(nb % 3 === 0) 
   {
     return result = "Fizz";
   }
 
-  if(nb % 5)
+  if(nb % 5 === 0)
   {
     return result = "Buzz";
   }
 
-  if(nb % 3 == nb % 5)
+  if(nb % 3 & nb % 5 === 0)
   {
     return result = "FizzBuzz";
   }
