@@ -1,35 +1,11 @@
 //FIZZBUZZ
-//exercice avec les variables incluses  
 function maFonction(nb)
 {
-  let a = nb;
-  let b = 3;
-  let c = 5;
-  
-  if(a % b === 0) 
-  {
-    return result = "Fizz";
-  }
 
-  if(a % c === 0)
-  {
-    return result = "Buzz";
-  }
-
-  if(a % b == a % c)
+  if(nb % 3 === 0 && nb % 5 === 0)
   {
     return result = "FizzBuzz";
   }
-
-  }
-
-    console.log(maFonction(30))
-    console.log(maFonction(12))
-    console.log(maFonction(1))
-
-//Et sans 
-function maFonction(nb)
-{
   
   if(nb % 3 === 0) 
   {
@@ -39,11 +15,6 @@ function maFonction(nb)
   if(nb % 5 === 0)
   {
     return result = "Buzz";
-  }
-
-  if(nb % 3 & nb % 5 === 0)
-  {
-    return result = "FizzBuzz";
   }
 
   }
